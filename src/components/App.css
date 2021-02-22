@@ -1,0 +1,78 @@
+.mid-content{
+   
+ }
+
+body{
+    background-color: currentColor;
+}
+
+ .main-content{
+     min-height: 80vh ;
+     margin-top:50px;
+     border: 1px solid darkgray;
+     border-radius: 5px;
+     padding: 10px;
+     background-color: rgb(131, 124, 124);
+ }
+
+ .item img{
+     height: 40px;
+     width: 40px;
+ }
+
+ .label:nth-child(even){
+    border-radius: 10px;
+    background-color: hsl(0, 86%, 67%);
+    margin: 0px 0px 0px 5px;
+    padding: 3px;
+    font-size: 10px;
+    
+}
+ 
+
+ .label:nth-child(odd){
+    border-radius: 10px;
+    background-color: hsl(60, 80%, 57%);
+    margin: 0px 0px 0px 5px;
+    padding: 3px;
+    font-size: 10px;
+}
+
+li{
+    background-color: whitesmoke;
+    padding: 0px;
+    margin: 0px;
+}
+
+.description{
+    font-size: 10px;
+}
+
+.pagination {
+    margin: 10px auto;
+    display: flex;
+    list-style: none;
+    outline: none;
+  }
+  .pagination > .active > a{
+    background-color: #47ccde ;
+    border-color: #47ccde ;
+    color: #fff;
+  }
+  .pagination > li > a{
+    /* border: 1px solid #47ccde ; */
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+  }
+  .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #47ccde ;
+    border-color: #47ccde;
+    outline: none ;
+  }
+  .pagination > li > a, .pagination > li > span{
+    color: #47ccde
+  }
+  .pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+    border-radius: unset
+  }
